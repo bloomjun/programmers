@@ -11,7 +11,7 @@ class Q42577Test {
     void test_1() {
         String[] phoneBook = {"119", "97674223", "1195524421"};
 
-        boolean answer = question.soultion(phoneBook);
+        boolean answer = question.solution(phoneBook);
 
         assertFalse(answer);
     }
@@ -20,7 +20,7 @@ class Q42577Test {
     void test_2() {
         String[] phoneBook = {"123", "456", "789"};
 
-        boolean answer = question.soultion(phoneBook);
+        boolean answer = question.solution(phoneBook);
 
         assertTrue(answer);
     }
@@ -29,7 +29,7 @@ class Q42577Test {
     void test_3() {
         String[] phoneBook = {"12", "123", "1235", "567", "88"};
 
-        boolean answer = question.soultion(phoneBook);
+        boolean answer = question.solution(phoneBook);
 
         assertFalse(answer);
     }

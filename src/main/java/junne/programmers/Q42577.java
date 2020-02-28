@@ -10,7 +10,7 @@ import java.util.Set;
  */
 public class Q42577 {
 
-    public boolean soultion(String[] phone_book) {
+    public boolean solution(String[] phone_book) {
         // 입력 값을 Set 으로 집어 넣는다.
         Set<String> set = new HashSet<>(List.of(phone_book));
 
