@@ -1,6 +1,5 @@
 package junne.programmers.level2;
 
-import junne.programmers.level2.Q60057;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -24,7 +23,7 @@ class Q60057Test {
 
     @Test
     void test_3() {
-        String s = "abcabcdede"	;
+        String s = "abcabcdede";
         int answer = question.solution(s);
         assertEquals(8, answer);
     }

@@ -1,9 +1,9 @@
 package junne.programmers.level2;
 
-import junne.programmers.level2.Q42577;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class Q42577Test {
     Q42577 question = new Q42577();

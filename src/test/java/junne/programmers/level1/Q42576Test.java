@@ -1,9 +1,8 @@
 package junne.programmers.level1;
 
-import junne.programmers.level1.Q42576;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Q42576Test {
     Q42576 question = new Q42576();
@@ -20,7 +19,7 @@ class Q42576Test {
 
     @Test
     void test_2() {
-        String[] participant = {"marina", "josipa","nikola", "vinko", "filipa"};
+        String[] participant = {"marina", "josipa", "nikola", "vinko", "filipa"};
         String[] completion = {"josipa", "filipa", "marina", "nikola"};
 
         String answer = question.solution(participant, completion);

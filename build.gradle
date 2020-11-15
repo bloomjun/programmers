@@ -3,14 +3,20 @@ plugins {
 }
 
 group 'junne.programmers'
-version '1.0.0'
+version '1.0'
 
-sourceCompatibility = 11
+sourceCompatibility = 14
+targetCompatibility = 14
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation('org.junit.jupiter:junit-jupiter-engine:5.5.2')
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.7.0')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.7.0')
+}
+
+test {
+    useJUnitPlatform()
 }
