@@ -1,4 +1,4 @@
-package junne.programmers;
+package junne.programmers.level1;
 
 import java.util.*;
 

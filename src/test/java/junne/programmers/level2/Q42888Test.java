@@ -1,8 +1,8 @@
-package junne.programmers;
+package junne.programmers.level2;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class Q42888Test {
     Q42888 question = new Q42888();

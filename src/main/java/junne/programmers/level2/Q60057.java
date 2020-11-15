@@ -1,4 +1,4 @@
-package junne.programmers;
+package junne.programmers.level2;
 
 /**
  * [2020카카오공채] 문자열 압축

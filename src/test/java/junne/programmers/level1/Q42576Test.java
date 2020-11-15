@@ -1,5 +1,6 @@
-package junne.programmers;
+package junne.programmers.level1;
 
+import junne.programmers.level1.Q42576;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

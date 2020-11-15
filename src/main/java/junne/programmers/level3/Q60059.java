@@ -1,4 +1,4 @@
-package junne.programmers;
+package junne.programmers.level3;
 
 /**
  * [2020카카오공채] 자물쇠와 열쇠
@@ -12,8 +12,10 @@ public class Q60059 {
 
         int[][] map = new int[r][r];
         for (int i = (m - 1); i < (m + n - 1); i++) {
-            for (int j = (m - 1); j < (m + n - 1); j++) {
+            int j = (m - 1);
+            while (j < (m + n - 1)) {
                 map[i][j] = lock[i - (m - 1)][j - (m - 1)]; // lock 대입
+                j++;
             }
         }
 

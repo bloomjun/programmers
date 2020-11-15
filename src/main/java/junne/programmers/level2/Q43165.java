@@ -1,4 +1,4 @@
-package junne.programmers;
+package junne.programmers.level2;
 
 /**
  * 타겟 넘버

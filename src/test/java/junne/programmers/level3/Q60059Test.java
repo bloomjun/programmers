@@ -1,8 +1,8 @@
-package junne.programmers;
+package junne.programmers.level3;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class Q60059Test {
     Q60059 question = new Q60059();
@@ -22,7 +22,7 @@ class Q60059Test {
 
         boolean answer = question.solution(key, lock);
 
-        assertEquals(true, answer);
+        assertTrue(answer);
     }
 
     @Test
@@ -40,7 +40,7 @@ class Q60059Test {
 
         boolean answer = question.solution(key, lock);
 
-        assertEquals(true, answer);
+        assertTrue(answer);
     }
 
     @Test
@@ -60,6 +60,6 @@ class Q60059Test {
 
         boolean answer = question.solution(key, lock);
 
-        assertEquals(true, answer);
+        assertTrue(answer);
     }
 }
