@@ -12,7 +12,7 @@ class Q12914Test {
     @Test
     fun test_1() {
         val n = 4
-        val expect = 5
+        val expect = 5L
 
         val answer = question.solution(n)
 
@@ -22,7 +22,7 @@ class Q12914Test {
     @Test
     fun test_2() {
         val n = 3
-        val expect = 3
+        val expect = 3L
 
         val answer = question.solution(n)
 
